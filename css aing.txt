@@ -1,0 +1,122 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(12, 4, 26);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-right: auto;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+}
+
+ul {
+    display: flex;
+    margin-top: 15px;
+    margin-right: 6px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+li {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #eaeaea;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cta {
+    background: rgb(6, 180, 192);
+    margin-right: 10px;
+    border: none;
+    padding: 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.img-carousel {
+    width: 1300px;
+    max-width: auto;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 3px;
+}
+
+.img-foto {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 10px;
+}
+
+.content {
+    background: #f3f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.icon-img {
+    width: 50px;
+    height: auto;
+}
+
+.judul {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.isi {
+    font-size: 20px;
+    font-weight: bold;
+}
